@@ -1,0 +1,99 @@
+* {
+    background-color: white;
+}
+#logo {
+    object-fit: contain;
+}
+header nav {
+    font-size: 1.3rem;
+}
+a.navbar-brad {
+    font-size: 1.3rem;
+}
+.col {
+    object-fit: contain;
+}
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    object-fit: contain;
+}
+#kartlar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#sag {
+    float: right;
+    position: absolute;
+    right: 6vw;
+    top: 18vh;
+    background-color: transparent;
+
+}
+#sol {
+    float: left;
+    position: absolute;
+    left: 6vw;
+    top: 18vh;
+    background-color: transparent;
+}
+#ymenu div.col img {
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+#cards div.col div.card img {
+    border-bottom: 2px solid lightgray;
+}
+#cards div.col div.card {
+    margin-left: 3vw;
+    margin-top: 3vh;
+}
+#ilgi p{
+    font: bold;
+    font-size: 1.2rem;
+    margin-left: 10vw;
+    margin-top: 1.5vh;
+}
+#ilgi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#ilgi button {
+    margin-top: 1vh;
+    margin-left: 3vw;
+}
+footer img {
+    width: 10vw;
+    height: 10vh;
+    object-fit: contain;
+    margin-left: 7vw;
+}
+.metin {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 21vw;
+    margin-top: -1vh;
+    font-size: 0.8rem;
+
+}
+footer {
+    overflow: hidden;
+    width: 80%;
+
+}
+#baslik {
+    margin-top: -8vh;
+    text-align: center;
+    margin-left: 21vw;
+}
+#ymenu div.col:hover img {
+    border-color: black;
+    transition: 0.8s;
+}
+#cards .row .col:hover .card {
+    border-color: black;
+    transition: 0.8s;
+}
